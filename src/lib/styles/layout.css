@@ -1,0 +1,239 @@
+/*@import 'tailwindcss/preflight.css' layer(base);*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-ThinItalic.woff2') format('woff2');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-ExtraLight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-ExtraLightItalic.woff2') format('woff2');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-LightItalic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-SemiBoldItalic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-ExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-ExtraBoldItalic.woff2') format('woff2');
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('/fonts/hanken-grotesk/HankenGrotesk-BlackItalic.woff2') format('woff2');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--white: #fff1e8;
+	--teal: #2fe2a5;
+
+	--brown: #201c1b;
+	--pink: #ff0097;
+	--black: #1a1a1a;
+
+	--font-sans: 'Hanken Grotesk', sans-serif;
+	--font-serif: 'Rosario', serif;
+
+	--step--2: clamp(0.7813rem, 0.7736rem + 0.0341vw, 0.8rem);
+	--step--1: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+	--step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
+	--step-1: clamp(1.35rem, 1.2631rem + 0.3864vw, 1.5625rem);
+	--step-2: clamp(1.62rem, 1.4837rem + 0.6057vw, 1.9531rem);
+	--step-3: clamp(1.944rem, 1.7405rem + 0.9044vw, 2.4414rem);
+	--step-4: clamp(2.3328rem, 2.0387rem + 1.3072vw, 3.0518rem);
+	--step-5: clamp(2.7994rem, 2.384rem + 1.8461vw, 3.8147rem);
+}
+
+body {
+	margin: 0;
+	background: var(--white);
+	color: var(--brown);
+	font-family: var(--font-serif);
+	font-size: var(--step-1);
+	letter-spacing: 0.01em;
+}
+
+a {
+	text-decoration-line: underline;
+	text-underline-offset: 0.3em;
+}
+
+a:hover {
+	text-decoration-line: none;
+}
+
+h2 {
+	font-size: var(--step-3);
+	max-width: 42rem;
+	margin-top:1rem;
+	margin-bottom: 1rem;
+}
+
+p {
+	font-size: var(--step-1);
+	text-wrap: pretty;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+/*img[src$='.gif'] {
+	image-rendering: pixelated;
+	border-radius: 8px;
+}*/
+
+img {
+	font-family: var(--font-sans);
+	font-size: var(--step--1);
+	font-weight: 400;
+}
+
+.crispy {
+   	image-rendering: pixelated;
+}
+
+*:focus-visible {
+	text-decoration: none;
+	outline: 2px solid var(--pink);
+	outline-offset: 4px;
+}
+
+.grid-layout {
+	--cols: 1fr;
+	--padding: 1rem;
+	--gap: 1rem;
+	--max-w: calc(50rem + var(--padding) * 2);
+	display: grid;
+	gap: var(--gap);
+	grid-template-columns: var(--cols);
+	max-width: var(--max-w);
+	padding-left: var(--padding);
+	padding-right: var(--padding);
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (width>=1024px) {
+	.grid-layout[data-layout='two-pane'] {
+		--cols: 1fr 1fr;
+	}
+	.grid-layout > [data-col='1'] {
+		grid-column: 1;
+	}
+	.grid-layout > [data-col='2'] {
+		grid-column: 2;
+	}
+}
