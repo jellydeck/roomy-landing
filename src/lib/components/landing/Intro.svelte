@@ -1,13 +1,13 @@
 <script lang="ts">
 	import space_channel from '$lib/assets/space_channel.png';
-	import ss from '$lib/assets/ss.png';
+	import ss from '$lib/assets/edited.png';
 	import Image from '$lib/components/ui/Image.svelte';
 </script>
 
 <div class="grid-layout mt-10">
 	<p>
 		Humans are social creatures. We crave bonding and social connections. In our digital world, our
-		common social space is campfire, which is the <i>group chat</i>.
+		common social space is a campfire, which is the <i>group chat</i>.
 	</p>
 
 	<p>It starts out something like this:</p>
