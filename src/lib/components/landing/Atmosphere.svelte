@@ -23,8 +23,8 @@
 
 <div class="grid-layout">
 	<p>
-		Now, imagine you stopped using twitter(X) and moved to a different app. It has all of your
-		posts, pictures and followers. that would be amazing, No?
+		Now, imagine you stopped using your favorite microblogging platform and moved to a different
+		one. It kept all your posts, pictures, and followers intact. That would be amazing, no?
 	</p>
 </div>
 
@@ -35,14 +35,11 @@
 />
 
 <div class="grid-layout">
-	<p>
-		That's exactly what you can do using Bluesky, an atproto alternative to twitter(X) with 45
-		Million users.
-	</p>
+	<p>That's exactly what you can do using Bluesky, an atproto alternative with 45 Million users.</p>
 
 	<p>
-		This is where Roomy is positioning itself as an atproto app. An huge ecosystem that complements
-		each other without enforcing users to one platform.
+		Roomy aims to solve the problem that larger real-time communication platforms face: portable
+		data that doesn't care about where you come from.
 	</p>
 </div>
 
@@ -55,7 +52,7 @@
 <div class="grid-layout">
 	<p>
 		Roomy gives you a way to design your community while tinkering with apps you like from the
-		ecosystem.
+		ecosystem, providing the tools to build and cultivate your community.
 	</p>
 
 	<p>Oh, and did we mention that you can use one account to use all of this?</p>
