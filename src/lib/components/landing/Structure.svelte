@@ -6,8 +6,9 @@
 <div class="grid-layout mt-8">
 	<h2>In search of structure</h2>
 	<p>
-		The thing about group chat is that it wants to keep conversation flowing. It keeps itself
-		flowing like a river. Structurally, old school forums just worked better for this.
+		The thing about group chat is that it wants conversation to keep moving. It's like a river,
+		always trying to push forward. Structurally, old school forums just worked better for this
+		reason. All of the relevant coversations were grouped together by topics and index board.
 	</p>
 
 	<p>
@@ -23,13 +24,13 @@
 	/>
 
 	<p>
-		When larger spaces of discourse complexify, Roomy's UI opens up gradually, keeping everything
-		orderly. Simply create a thread and keep chatting, as simple as that.
+		When larger spaces of discourse grow more complex, Roomy's UI opens up gradually, keeping everything
+		orderly. We can simply create a thread and keep chatting, as simple as that.
 	</p>
 </div>
 
 <img
-    class="my-12"
+	class="my-12"
 	src={threads}
 	alt="thread interface of roomy. a toggle at top allows quickly switch between chat and threads intuitively."
 />
@@ -41,7 +42,7 @@
 	</p>
 
 	<p>
-		Where Roomy differs is in being an atmospheric web app. Where being 'atmospheric' is adhering to
+		Where Roomy differs is in being an atmospheric web app, 'atmospheric' is adhering to
 		the AT protocol.
 	</p>
 </div>

@@ -8,7 +8,7 @@
 	<h2>Welcome to the Atmosphere</h2>
 
 	<p>
-		Better way to understand this would be a Camper. Camper is a travelling home vehicle that you
+		A better way to understand this is though a Camper. Camper is a travelling home vehicle that you
 		can take anywhere. It provides you the freedom of living wherever you wish. Same is true for any
 		app made on AT protocol.
 	</p>
@@ -19,8 +19,8 @@
 	</p>
 
 	<p>
-		Ask any camper owner, the best thing about owning one is freedom. This freedom allows to take
-		part in anything you find interesting, and for Roomy that means a huge ecosystem of apps built
+		Ask any camper owner, the best thing about owning one is freedom. This freedom allows you to take
+		part in anything you find interesting, and for <i>Roomy</i> that means a huge ecosystem of apps built
 		on AT Protocol.
 	</p>
 </div>
@@ -52,7 +52,7 @@
 
 <div class="grid-layout">
 	<p class="mb-30">
-		Roomy provides you the way to design your community while tinkering with apps you like from the
-		ecosystem. Oh, also did we mention that you can use one account to use all of this?
+		Roomy gives you a way to design your community while tinkering with apps you like from the
+		ecosystem. Oh, and did we mention that you can use one account to use all of this?
 	</p>
 </div>

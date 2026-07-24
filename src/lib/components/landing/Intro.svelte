@@ -5,8 +5,8 @@
 
 <div class="grid-layout mt-10">
 	<p>
-		Humans are social creatures. We crave bonding and social connections. In our digital worlds our
-		common social space is campfire, which is <i>group chat</i>.
+		Humans are social creatures. We crave bonding and social connections. In our digital world, our
+		common social space is campfire, which is the <i>group chat</i>.
 	</p>
 
 	<p>It starts out something like this:</p>
