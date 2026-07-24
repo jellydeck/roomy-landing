@@ -6,6 +6,6 @@
 </script>
 
 <div class="grid-layout">
-	<Button class="w-full py-3 mt-3">Launch Roomy</Button>
+	<Button href="https://roomy.space" class="w-full py-3 my-3 no-underline">Launch Roomy</Button>
 </div>
 <Image src={deer} class="mx-auto no-margin translate-y-1" alt="deer " />
