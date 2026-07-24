@@ -26,6 +26,11 @@
 		Roomy uses familiar structure, because we believe group chat is minimum viable everything. As
 		it's the best default foundation for community building.
 	</p>
+
+	<p>
+		Chatting is like pencil, we say the first thought that comes to mind. It can be edited later. This spontaneous energy
+		keeps us honest, because we're not trying to <i>sound</i> smart.
+	</p>
 </div>
 
 <Image
