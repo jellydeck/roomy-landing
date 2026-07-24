@@ -30,7 +30,7 @@
 
 <Image
 	src={ss}
-	class="crispy"
+	class="crispy drop"
 	caption="Building for and <i>with</i> communities."
 	alt="chat interface of roomy"
 />

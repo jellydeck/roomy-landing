@@ -188,11 +188,6 @@ p {
 	margin-bottom: 1rem;
 }
 
-/*img[src$='.gif'] {
-	image-rendering: pixelated;
-	border-radius: 8px;
-}*/
-
 img {
 	display: block;
 	font-family: var(--font-sans);
@@ -203,7 +198,7 @@ img {
 }
 
 figure {
-    margin-top: 2rem;
+	margin-top: 2rem;
 	margin-bottom: 2rem;
 
 	figcaption {
@@ -211,9 +206,14 @@ figure {
 		font-size: var(--step--1);
 		padding: 0 0.25rem;
 		text-align: center;
+		text-wrap: pretty;
 	}
 
 	.drop {
+		width: calc(100% - 0.5rem); /* 0.25rem each side */
+		margin-left: 0.25rem;
+		margin-right: 0.25rem;
+		border-radius: 12px;
 		box-shadow: 4px 5px 1px rgba(0, 0, 0, 0.2);
 	}
 }

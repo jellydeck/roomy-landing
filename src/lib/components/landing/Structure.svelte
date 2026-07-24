@@ -21,6 +21,7 @@
 	<Image
 		src={thoughts}
 		class="crispy"
+		caption="Thought starts the chain which creates a flourishing foray of plantlife."
 		alt="thought is born. which in turn end up as conversation which being chats. we can gather this into an coherent block as 'threads'. this in turn helps us to compile down into condensed shapes such as article."
 	/>
 
@@ -31,7 +32,7 @@
 </div>
 
 <Image
-	class="crispy"
+	class="crispy drop"
 	src={threads}
 	caption="we're <i>proud</i> of this 🥹"
 	alt="thread interface of roomy. a toggle at top allows quickly switch between chat and threads intuitively."
