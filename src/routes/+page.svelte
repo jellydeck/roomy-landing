@@ -1,15 +1,17 @@
 <script lang="ts">
-	import campfire from '$lib/assets/campfire.webp';
+	import Image from '$lib/components/Image.svelte';
 
 	import Atmosphere from '$lib/components/landing/Atmosphere.svelte';
 	import Intro from '$lib/components/landing/Intro.svelte';
 	import Structure from '$lib/components/landing/Structure.svelte';
+
+	import campfire from '$lib/assets/campfire.webp';
 </script>
 
 <div class="grid-layout">
-	<img
+	<Image
 		src={campfire}
-		class="mt-4"
+		class="crispy mt-4"
 		alt="two folks sitting by campfire, one is playing instrument while other is enjoying sort of skewer."
 	/>
 </div>

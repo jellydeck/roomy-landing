@@ -1,6 +1,7 @@
 <script lang="ts">
 	import thoughts from '$lib/assets/thoughts.png';
 	import threads from '$lib/assets/threads.png';
+	import Image from '../Image.svelte';
 </script>
 
 <div class="grid-layout mt-8">
@@ -17,20 +18,20 @@
 		For groups engaged in knowledge work, revisiting conversation is important.
 	</p>
 
-	<img
+	<Image
 		src={thoughts}
-		class="crispy"
+		class="crispy mt-4"
 		alt="thought is born. which in turn end up as conversation which being chats. we can gather this into an coherent block as 'threads'. this in turn helps us to compile down into condensed shapes such as article."
 	/>
 
 	<p>
-		When larger spaces of discourse grow more complex, Roomy's UI opens up gradually, keeping everything
-		orderly. We can simply create a thread and keep chatting, as simple as that.
+		When larger spaces of discourse grow more complex, Roomy's UI opens up gradually, keeping
+		everything orderly. We can simply create a thread and keep chatting, as simple as that.
 	</p>
 </div>
 
-<img
-	class="my-12"
+<Image
+	class="crispy mt-12"
 	src={threads}
 	alt="thread interface of roomy. a toggle at top allows quickly switch between chat and threads intuitively."
 />
@@ -42,7 +43,7 @@
 	</p>
 
 	<p>
-		Where Roomy differs is in being an atmospheric web app, 'atmospheric' is adhering to
-		the AT protocol.
+		Where Roomy differs is in being an atmospheric web app, 'atmospheric' is adhering to the AT
+		protocol.
 	</p>
 </div>

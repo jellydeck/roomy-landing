@@ -1,6 +1,7 @@
 <script lang="ts">
 	import space_channel from '$lib/assets/space_channel.png';
 	import ss from '$lib/assets/ss.png';
+	import Image from '../Image.svelte';
 </script>
 
 <div class="grid-layout mt-10">
@@ -12,7 +13,7 @@
 	<p>It starts out something like this:</p>
 </div>
 
-<img
+<Image
 	src={space_channel}
 	class="crispy mx-auto my-4"
 	alt="two sections with small section on left being 'space' and remaining space taken by 'channel' section."
@@ -27,4 +28,9 @@
 	</p>
 </div>
 
-<img src={ss} class="my-14" alt="chat interface of roomy" />
+<Image
+	src={ss}
+	class="crispy my-14"
+	caption="Building for and <i>with</i> communities."
+	alt="chat interface of roomy"
+/>
