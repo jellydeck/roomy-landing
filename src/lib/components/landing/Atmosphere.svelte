@@ -55,6 +55,8 @@
 <div class="grid-layout">
 	<p>
 		Roomy gives you a way to design your community while tinkering with apps you like from the
-		ecosystem. Oh, and did we mention that you can use one account to use all of this?
+		ecosystem.
 	</p>
+
+	<p>Oh, and did we mention that you can use one account to use all of this?</p>
 </div>
