@@ -1,7 +1,7 @@
 <script lang="ts">
 	import thoughts from '$lib/assets/thoughts.png';
 	import threads from '$lib/assets/threads.png';
-	import Image from '../Image.svelte';
+	import Image from '$lib/components/Image.svelte';
 </script>
 
 <div class="grid-layout mt-8">
@@ -32,7 +32,7 @@
 </div>
 
 <Image
-	class="crispy drop"
+	class="drop"
 	src={threads}
 	caption="we're <i>proud</i> of this 🥹"
 	alt="thread interface of roomy. a toggle at top allows quickly switch between chat and threads intuitively."

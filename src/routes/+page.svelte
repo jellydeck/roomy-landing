@@ -4,6 +4,7 @@
 	import Atmosphere from '$lib/components/landing/Atmosphere.svelte';
 	import Intro from '$lib/components/landing/Intro.svelte';
 	import Structure from '$lib/components/landing/Structure.svelte';
+	import CTA from '$lib/components/landing/CTA.svelte';
 
 	import campfire from '$lib/assets/campfire.webp';
 </script>
@@ -19,3 +20,4 @@
 <Intro />
 <Structure />
 <Atmosphere />
+<CTA/>

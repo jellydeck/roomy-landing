@@ -136,6 +136,10 @@
 	box-sizing: border-box;
 }
 
+@theme {
+	--shadow-button: 2px 2px 0 0 var(--shadow-button-color, var(--color-accent-700));
+}
+
 :root {
 	--white: #fff1e8;
 	--teal: #2fe2a5;
@@ -163,7 +167,6 @@ body {
 	color: var(--brown);
 	font-family: var(--font-serif);
 	font-size: var(--step-1);
-	letter-spacing: 0.01em;
 }
 
 a {
@@ -215,6 +218,10 @@ figure {
 		margin-right: 0.25rem;
 		border-radius: 12px;
 		box-shadow: 4px 5px 1px rgba(0, 0, 0, 0.2);
+	}
+
+	&:has(.no-margin) {
+		margin: 0;
 	}
 }
 

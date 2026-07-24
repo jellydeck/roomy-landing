@@ -1,7 +1,7 @@
 <script lang="ts">
 	import space_channel from '$lib/assets/space_channel.png';
 	import ss from '$lib/assets/ss.png';
-	import Image from '../Image.svelte';
+	import Image from '$lib/components/Image.svelte';
 </script>
 
 <div class="grid-layout mt-10">
@@ -30,7 +30,7 @@
 
 <Image
 	src={ss}
-	class="crispy drop"
+	class="drop"
 	caption="Building for and <i>with</i> communities."
 	alt="chat interface of roomy"
 />

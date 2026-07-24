@@ -1,8 +1,10 @@
 <script lang="ts">
+	import Image from '$lib/components/Image.svelte';
+
 	import data_platform from '$lib/assets/data_platform.png';
 	import apps from '$lib/assets/apps.png';
 	import group from '$lib/assets/group.png';
-	import Image from '../Image.svelte';
+	import deer from '$lib/assets/deer.png';
 </script>
 
 <div class="grid-layout mt-8">
@@ -20,9 +22,9 @@
 	</p>
 
 	<p>
-		Ask any camper owner, the best thing about owning one is freedom. This freedom allows you to take
-		part in anything you find interesting, and for <i>Roomy</i> that means a huge ecosystem of apps built
-		on AT Protocol.
+		Ask any camper owner, the best thing about owning one is freedom. This freedom allows you to
+		take part in anything you find interesting, and for <i>Roomy</i> that means a huge ecosystem of apps
+		built on AT Protocol.
 	</p>
 </div>
 
