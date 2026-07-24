@@ -15,7 +15,7 @@
 
 <Image
 	src={space_channel}
-	class="crispy mx-auto my-4"
+	class="crispy mx-auto"
 	alt="two sections with small section on left being 'space' and remaining space taken by 'channel' section."
 />
 
@@ -30,7 +30,7 @@
 
 <Image
 	src={ss}
-	class="crispy my-14"
+	class="crispy"
 	caption="Building for and <i>with</i> communities."
 	alt="chat interface of roomy"
 />

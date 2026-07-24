@@ -185,10 +185,7 @@ h2 {
 p {
 	font-size: var(--step-1);
 	text-wrap: pretty;
-}
-
-p + p {
-	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 /*img[src$='.gif'] {
@@ -206,7 +203,8 @@ img {
 }
 
 figure {
-	margin-bottom: 0.75rem;
+    margin-top: 2rem;
+	margin-bottom: 2rem;
 
 	figcaption {
 		font-family: var(--font-sans);
