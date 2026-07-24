@@ -214,9 +214,9 @@
 		}
 
 		.drop {
-			width: calc(100% - 0.5rem); /* 0.25rem each side */
-			margin-left: 0.25rem;
-			margin-right: 0.25rem;
+			width: calc(100% - 1rem); /* 0.25rem each side */
+			margin-left: 0.5rem;
+			margin-right: 0.5rem;
 			border-radius: 12px;
 			box-shadow: 4px 5px 1px rgba(0, 0, 0, 0.2);
 		}
