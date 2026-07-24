@@ -1,30 +1,30 @@
 <script lang="ts">
-	import Image from '$lib/components/Image.svelte';
+	import Image from '$lib/components/ui/Image.svelte';
 
 	import data_platform from '$lib/assets/data_platform.png';
 	import apps from '$lib/assets/apps.png';
 	import group from '$lib/assets/group.png';
-	import deer from '$lib/assets/deer.png';
 </script>
 
 <div class="grid-layout mt-8">
 	<h2>Welcome to the Atmosphere</h2>
 
 	<p>
-		A better way to understand this is though a Camper. Camper is a travelling home vehicle that you
-		can take anywhere. It provides you the freedom of living wherever you wish. Same is true for any
-		app made on AT protocol.
+		A better way to understand this is how Big Tech handles our data. All of our data is tighly
+		coupled to the platform.
 	</p>
+</div>
 
-	<p>
-		If you don't like it, you can always pack up and go somewhere else. But Big Tech doesn't like
-		the idea. They want you to hand over the keys so they can decide where you settle.
-	</p>
+<Image
+	src={apps}
+	class="cripsy mx-auto"
+	alt="closed circles with famous social media apps, representing their nature of locking userdata at one place on their platform."
+/>
 
+<div class="grid-layout">
 	<p>
-		Ask any camper owner, the best thing about owning one is freedom. This freedom allows you to
-		take part in anything you find interesting, and for <i>Roomy</i> that means a huge ecosystem of apps
-		built on AT Protocol.
+		Now, imagine you stopped using twitter(X) and moved to a different app. It has all of your
+		posts, pictures and followers. that would be amazing, No?
 	</p>
 </div>
 
@@ -36,16 +36,15 @@
 
 <div class="grid-layout">
 	<p>
-		You always own your data. You choose a trusted location to settle it while being part of the
-		community.
+		That's exactly what you can do using Bluesky, an atproto alternative to twitter(X) with 45
+		Million users.
+	</p>
+
+	<p>
+		This is where Roomy is positioning itself as an atproto app. An huge ecosystem that complements
+		each other without enforcing users to one platform.
 	</p>
 </div>
-
-<Image
-	src={apps}
-	class="cripsy mx-auto"
-	alt="closed circles with famous social media apps, representing their nature of locking userdata at one place on their platform."
-/>
 
 <Image
 	src={group}

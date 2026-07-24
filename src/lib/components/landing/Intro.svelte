@@ -1,7 +1,7 @@
 <script lang="ts">
 	import space_channel from '$lib/assets/space_channel.png';
 	import ss from '$lib/assets/ss.png';
-	import Image from '$lib/components/Image.svelte';
+	import Image from '$lib/components/ui/Image.svelte';
 </script>
 
 <div class="grid-layout mt-10">
@@ -23,13 +23,13 @@
 	<p>That's roughly what it has looked like since the 90's.</p>
 
 	<p>
-		Roomy uses familiar structure, because we believe group chat is minimum viable everything. As
-		it's the best default foundation for community building.
+		Roomy uses a familiar structure because we believe group chat is the minimum-viable-everything
+		of community building.
 	</p>
 
 	<p>
-		Chatting is like pencil, we say the first thought that comes to mind. It can be edited later. This spontaneous energy
-		keeps us honest, because we're not trying to <i>sound</i> smart.
+		Chatting is like a pencil sketch; we express the first thought that comes to mind without
+		dwelling on straightened lines.
 	</p>
 </div>
 

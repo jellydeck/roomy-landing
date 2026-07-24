@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Image from '$lib/components/Image.svelte';
+	import Image from '$lib/components/ui/Image.svelte';
 
 	import Atmosphere from '$lib/components/landing/Atmosphere.svelte';
 	import Intro from '$lib/components/landing/Intro.svelte';
