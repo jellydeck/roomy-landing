@@ -12,7 +12,7 @@
     "touch-manipulation hover:cursor-pointer",
     "inline-flex items-center justify-center gap-2",
     "whitespace-nowrap rounded-[8px]",
-    "text-lg font-bold",
+    "text-lg font-bold font-sans",
     "outline-offset-2 focus-visible:outline-2",
     "duration-50 active:duration-100",
     "disabled:pointer-events-none disabled:opacity-60",
