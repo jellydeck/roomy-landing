@@ -1,7 +1,7 @@
 /*@import 'tailwindcss/preflight.css' layer(base);*/
 
 @import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');*/
 
 @import 'tailwindcss';
 
@@ -200,6 +200,7 @@ img {
 	font-family: var(--font-sans);
 	font-size: var(--step--1);
 	font-weight: 400;
+	max-width: 100%;
 }
 
 .crispy {
@@ -216,7 +217,7 @@ img {
 	--cols: 1fr;
 	--padding: 1rem;
 	--gap: 1rem;
-	--max-w: calc(50rem + var(--padding) * 2);
+	--max-w: calc(52rem + var(--padding) * 2);
 	display: grid;
 	gap: var(--gap);
 	grid-template-columns: var(--cols);

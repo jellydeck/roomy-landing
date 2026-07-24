@@ -1,42 +1,47 @@
 <script lang="ts">
 	import thoughts from '$lib/assets/thoughts.png';
-	import threads from '$lib/assets/threads.webp';
+	import threads from '$lib/assets/threads.png';
 </script>
 
-<h2>In search of structure</h2>
-<p>
-	The thing about group chat is that it wants to keep conversation flowing. It keeps itself flowing
-	like a river. Structurally, old school forums just worked better for this.
-</p>
+<div class="grid-layout mt-8">
+	<h2>In search of structure</h2>
+	<p>
+		The thing about group chat is that it wants to keep conversation flowing. It keeps itself
+		flowing like a river. Structurally, old school forums just worked better for this.
+	</p>
 
-<p>
-	Each conversation on forums is contained under a topic. This seemingly simple design choice
-	curates info really nicely. Modern Discord is not meaningfully better at knowledge-management. For
-	groups engaged in knowledge work, revisiting conversation is important.
-</p>
+	<p>
+		Each conversation on forums is contained under a topic. This seemingly simple design choice
+		curates info really nicely. Modern Discord is not meaningfully better at knowledge-management.
+		For groups engaged in knowledge work, revisiting conversation is important.
+	</p>
+
+	<img
+		src={thoughts}
+		class="crispy"
+		alt="thought is born. which in turn end up as conversation which being chats. we can gather this into an coherent block as 'threads'. this in turn helps us to compile down into condensed shapes such as article."
+	/>
+
+	<p>
+		When larger spaces of discourse complexify, Roomy's UI opens up gradually, keeping everything
+		orderly. Simply create a thread and keep chatting, as simple as that.
+	</p>
+</div>
 
 <img
-	src={thoughts}
-	alt="thought is born. which in turn end up as conversation which being chats. we can gather this into an coherent block as 'threads'. this in turn helps us to compile down into condensed shapes such as article."
-/>
-
-<p>
-	When larger spaces of discourse complexify, Roomy's UI opens up gradually, keeping everything
-	orderly. Simply create a thread and keep chatting, as simple as that.
-</p>
-
-<img
+    class="my-12"
 	src={threads}
-	class="rounded-md"
 	alt="thread interface of roomy. a toggle at top allows quickly switch between chat and threads intuitively."
 />
 
-<p>
-	The best in the biz right now are Zulip and Discourse. Zulip is especially close to Roomy in its
-	chat-to-threads approach.
-</p>
+<div class="grid-layout">
+	<p>
+		The best in the biz right now are Zulip and Discourse. Zulip is especially close to Roomy in its
+		chat-to-threads approach.
+	</p>
 
-<p>
-	Where Roomy differs is in being an atmospheric web app. Where being 'atmospheric' is adhering to
-	the AT protocol.
-</p>
+	<p>
+		Where Roomy differs is in being an atmospheric web app. Where being 'atmospheric' is adhering to
+		the AT protocol.
+	</p>
+</div>
