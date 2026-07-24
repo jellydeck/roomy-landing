@@ -10,13 +10,15 @@
 	</p>
 
 	<p>It starts out something like this:</p>
+</div>
 
-	<img
-		src={space_channel}
-		class="crispy"
-		alt="two sections with small section on left being 'space' and remaining space taken by 'channel' section."
-	/>
+<img
+	src={space_channel}
+	class="crispy mx-auto my-4"
+	alt="two sections with small section on left being 'space' and remaining space taken by 'channel' section."
+/>
 
+<div class="grid-layout">
 	<p>That's roughly what it has looked like since the 90's.</p>
 
 	<p>

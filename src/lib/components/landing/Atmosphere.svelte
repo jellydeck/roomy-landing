@@ -24,6 +24,7 @@
 		on AT Protocol.
 	</p>
 </div>
+
 <img
 	src={data_platform}
 	class="cripsy mx-auto my-4"
@@ -36,6 +37,7 @@
 		community.
 	</p>
 </div>
+
 <img
 	src={apps}
 	class="cripsy mx-auto my-4"
@@ -47,6 +49,7 @@
 	class="cripsy mx-auto my-4"
 	alt="open nature of at-protocol allowing many apps to coexist and share their data from a single source."
 />
+
 <div class="grid-layout">
 	<p class="mb-30">
 		Roomy provides you the way to design your community while tinkering with apps you like from the
