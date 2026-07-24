@@ -1,6 +1,6 @@
 <script lang="ts">
 	import space_channel from '$lib/assets/space_channel.png';
-	import ss from '$lib/assets/edited.png';
+	import ss from '$lib/assets/ss_frame.png';
 	import Image from '$lib/components/ui/Image.svelte';
 </script>
 
