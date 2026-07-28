@@ -29,7 +29,6 @@
 	font-display: swap;
 }
 
-
 @font-face {
 	font-family: 'Rosario';
 	src: url('/fonts/rosario/rosario-regular.woff2') format('woff2');
@@ -146,12 +145,6 @@
 		image-rendering: pixelated;
 	}
 
-	*:focus-visible {
-		text-decoration: none;
-		outline: 2px solid var(--pink);
-		outline-offset: 4px;
-	}
-
 	.grid-layout {
 		--cols: 1fr;
 		--padding: 1rem;
@@ -176,5 +169,11 @@
 		.grid-layout > [data-col='2'] {
 			grid-column: 2;
 		}
+	}
+
+	*:focus-visible {
+		text-decoration: none;
+		outline: 2px solid var(--pink);
+		outline-offset: 4px;
 	}
 }
