@@ -1,4 +1,4 @@
-story of roomy.
+story of roomy
 
 we're trying to make a good chatting software that allows curating knowledge like old forums. 
 best way to do it while not enforcing full rules is to provide user with chat. Most of the
