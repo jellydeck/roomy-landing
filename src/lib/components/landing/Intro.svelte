@@ -1,7 +1,8 @@
 <script lang="ts">
-	import space_channel from '$lib/assets/space_channel.png';
-	import ss from '$lib/assets/ss_frame.png';
 	import Image from '$lib/components/ui/Image.svelte';
+
+	import space_channel from '$lib/assets/space_channel.png?enhanced';
+	import ss from '$lib/assets/ss_frame.png?enhanced';
 </script>
 
 <div class="grid-layout mt-10">
