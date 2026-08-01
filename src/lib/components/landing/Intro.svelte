@@ -39,3 +39,10 @@
 	caption="Building for and <i>with</i> communities."
 	alt="chat interface of roomy"
 />
+
+<div class="grid-layout">
+	<p class="text-step-0 mb-0 ">
+		Narrated by
+		<a href="https://jaydip.me" target="_blank" rel="noopener noreferrer" class="text-pink"> Jaydip Sanghani </a>
+	</p>
+</div>

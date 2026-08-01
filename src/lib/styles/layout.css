@@ -44,16 +44,11 @@
 	font-display: swap;
 }
 
-
 * {
 	box-sizing: border-box;
 }
 
 @theme {
-	--shadow-button: 3px 3px 0 0 var(--shadow-button-color, var(--color-accent-700));
-}
-
-:root {
 	--white: #fff1e8;
 	--teal: #2fe2a5;
 
@@ -61,17 +56,21 @@
 	--pink: #ff0097;
 	--black: #1a1a1a;
 
+	--color-pink: var(--pink);
+
 	--font-sans: 'Hanken Grotesk', sans-serif;
 	--font-serif: 'Rosario', serif;
 
-	--step--2: clamp(0.6944rem, 0.684rem + 0.0465vw, 0.72rem);
-	--step--1: clamp(0.8333rem, 0.8061rem + 0.1212vw, 0.9rem);
-	--step-0: clamp(1rem, 0.9489rem + 0.2273vw, 1.125rem);
-	--step-1: clamp(1.2rem, 1.1156rem + 0.375vw, 1.4063rem);
-	--step-2: clamp(1.44rem, 1.31rem + 0.5778vw, 1.7578rem);
-	--step-3: clamp(1.728rem, 1.536rem + 0.8532vw, 2.1973rem);
-	--step-4: clamp(2.0736rem, 1.7983rem + 1.2236vw, 2.7466rem);
-	--step-5: clamp(2.4883rem, 2.1018rem + 1.718vw, 3.4332rem);
+	--text-step--2: clamp(0.6944rem, 0.684rem + 0.0465vw, 0.72rem);
+	--text-step--1: clamp(0.8333rem, 0.8061rem + 0.1212vw, 0.9rem);
+	--text-step-0: clamp(1rem, 0.9489rem + 0.2273vw, 1.125rem);
+	--text-step-1: clamp(1.2rem, 1.1156rem + 0.375vw, 1.4063rem);
+	--text-step-2: clamp(1.44rem, 1.31rem + 0.5778vw, 1.7578rem);
+	--text-step-3: clamp(1.728rem, 1.536rem + 0.8532vw, 2.1973rem);
+	--text-step-4: clamp(2.0736rem, 1.7983rem + 1.2236vw, 2.7466rem);
+	--text-step-5: clamp(2.4883rem, 2.1018rem + 1.718vw, 3.4332rem);
+
+	--shadow-button: 3px 3px 0 0 var(--shadow-button-color, var(--color-accent-700));
 }
 
 @layer base {
@@ -80,7 +79,7 @@
 		background: var(--white);
 		color: var(--brown);
 		font-family: var(--font-serif);
-		font-size: var(--step-0);
+		font-size: var(--text-step-0);
 		font-variant-numeric: lining-nums;
 	}
 
@@ -94,14 +93,14 @@
 	}
 
 	h2 {
-		font-size: var(--step-3);
+		font-size: var(--text-step-3);
 		max-width: 42rem;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 	}
 
 	p {
-		font-size: var(--step-1);
+		font-size: var(--text-step-1);
 		text-wrap: pretty;
 		margin-bottom: 1rem;
 	}
@@ -109,7 +108,7 @@
 	img {
 		display: block;
 		font-family: var(--font-sans);
-		font-size: var(--step--1);
+		font-size: var(--text-step--1);
 		font-weight: 400;
 		max-width: 100%;
 		margin-bottom: 0.25rem;
@@ -122,7 +121,7 @@
 
 		figcaption {
 			font-family: var(--font-sans);
-			font-size: var(--step--1);
+			font-size: var(--text-step--1);
 			padding: 0 0.25rem;
 			text-align: center;
 			text-wrap: pretty;
