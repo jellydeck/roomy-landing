@@ -55,5 +55,5 @@
 		ecosystem, providing the tools to build and cultivate your community.
 	</p>
 
-	<p>Oh, and did we mention that you can use one account to use all of this?</p>
+	<p>Oh, and did we mention that you can use one account for all of this?</p>
 </div>
