@@ -2,7 +2,7 @@
 	import Image from '$lib/components/ui/Image.svelte';
 
 	import space_channel from '$lib/assets/space_channel.png?enhanced';
-	import ss from '$lib/assets/ss_framed.png?enhanced';
+	import ss from '$lib/assets/ss_paint.webp?enhanced';
 </script>
 
 <div class="grid-layout mt-10">
