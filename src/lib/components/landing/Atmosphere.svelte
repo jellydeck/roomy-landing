@@ -17,7 +17,7 @@
 
 <Image
 	src={apps}
-	class="cripsy mx-auto"
+	class="crispy mx-auto"
 	alt="closed circles with famous social media apps, representing their nature of locking userdata at one place on their platform."
 />
 
@@ -30,7 +30,7 @@
 
 <Image
 	src={data_platform}
-	class="cripsy mx-auto"
+	class="crispy mx-auto"
 	alt="two groups, one is group of folks in a circle 'data' and other being 'platform' "
 />
 
@@ -45,7 +45,7 @@
 
 <Image
 	src={group}
-	class="cripsy mx-auto"
+	class="crispy mx-auto"
 	alt="open nature of at-protocol allowing many apps to coexist and share their data from a single source."
 />
 
