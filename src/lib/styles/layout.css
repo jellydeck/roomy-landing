@@ -106,7 +106,7 @@
 		margin-bottom: 1rem;
 	}
 
-	img {
+	img:not(.vanilla) {
 		display: block;
 		color: var(--brown);
 		background-image: radial-gradient(circle at 50% 50%, var(--teal) 0% 35%, var(--white) 35% 100%);

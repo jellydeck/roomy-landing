@@ -2,7 +2,7 @@
 	import Image from '$lib/components/ui/Image.svelte';
 
 	import thoughts from '$lib/assets/thoughts.png?enhanced';
-	import threads from '$lib/assets/threads.png?enhanced';
+	import threads from '$lib/assets/threads.webp?enhanced';
 </script>
 
 <div class="grid-layout mt-8">
