@@ -6,14 +6,14 @@
 	import Structure from '$lib/components/landing/Structure.svelte';
 	import CTA from '$lib/components/landing/CTA.svelte';
 
-	import campfire from '$lib/assets/computer_lady.webp';
+	import campfire from '$lib/assets/computer_lady.webp?enhanced';
 </script>
 
 <div class="grid-layout">
 	<Image
 		src={campfire}
 		class="crispy mt-4"
-		alt="two folks sitting by campfire, one is playing instrument while other is enjoying sort of skewer."
+		alt="a lady typing on computer"
 	/>
 </div>
 
